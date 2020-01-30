@@ -2,8 +2,8 @@
 using namespace std;
 
 int main() {
-    int myNum = 15; // myNum is 15
-    myNum = 10; // Now myNum is 10
+    const int myNum = 15; // myNum will always be 15
+    myNum = 10; // error: assignment of read-only variable 'myNum'
     cout << myNum << endl; // Outputs 10
     return 0;
 }
