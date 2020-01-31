@@ -7,6 +7,7 @@ void myFunction(string country = "Norway") {
 }
 
 int main() {
+    
     myFunction("Sweden");
     myFunction("India");
     myFunction();
