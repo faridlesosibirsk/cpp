@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     // Creating variables
-    int myNum = 1000;
+    float myNum = 1000.75;
     cout << myNum << endl;
 
     return 0;
