@@ -2,15 +2,17 @@
 using namespace std;
 
 // Create a function
-void myFunction(string fname) {
-    cout << fname << " Refsnes\n";
+void myFunction(string country = "Norway") {
+    cout << country << "\n";
 }
 
 int main() {
-  myFunction("Liam"); // call the function
-  myFunction("Jenny");
-  myFunction("Anja");
-  return 0;
+    myFunction("Sweden");
+    myFunction("India");
+    myFunction();
+    myFunction("USA");
+
+    return 0;
 }
 
 // Outputs "I just got executed!"
