@@ -3,10 +3,12 @@ using namespace std;
 
 int main() {
     // Creating variables
-    bool isCodingFun = true;
-    bool isFishTasty = false;
-    cout << isCodingFun << endl;
-    cout << isFishTasty << endl;
+    char myGrade = 'B';
+    char a = 65, b = 66, c = 67;
+    cout << myGrade << endl;
+    cout << a;
+    cout << b;
+    cout << c << endl;
 
     return 0;
 }
