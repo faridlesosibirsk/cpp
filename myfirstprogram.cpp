@@ -2,14 +2,14 @@
 using namespace std;
 
 // Create a function
-void myFunction() {
-  cout << "I just got executed!" << endl;
+void myFunction(string fname) {
+    cout << fname << " Refsnes\n";
 }
 
 int main() {
-  myFunction(); // call the function
-  myFunction();
-  myFunction();
+  myFunction("Liam"); // call the function
+  myFunction("Jenny");
+  myFunction("Anja");
   return 0;
 }
 
