@@ -1,19 +1,24 @@
 #include <iostream>
 using namespace std;
 
-// Create a function
-void myFunction(string country = "Norway") {
-    cout << country << "\n";
+void swapNums(int &x, int &y) {
+  int z = x;
+  x = y;
+  y = z;
 }
 
 int main() {
-    
-    myFunction("Sweden");
-    myFunction("India");
-    myFunction();
-    myFunction("USA");
+  int firstNum = 10;
+  int secondNum = 20;
 
-    return 0;
+  cout << "Before swap: " << "\n";
+  cout << firstNum << secondNum << "\n";
+
+  // Call the function, which will change the values of firstNum and secondNum
+  swapNums(firstNum, secondNum);
+
+  cout << "After swap: " << "\n";
+  cout << firstNum << secondNum << "\n";
+
+  return 0;
 }
-
-// Outputs "I just got executed!"
