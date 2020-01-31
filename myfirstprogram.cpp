@@ -3,10 +3,10 @@ using namespace std;
 
 int main() {
     // Creating variables
-    double d1 = 35e3;
-    float f1 = 12E4;
-    cout << d1 << endl;
-    cout << f1 << endl;
+    bool isCodingFun = true;
+    bool isFishTasty = false;
+    cout << isCodingFun << endl;
+    cout << isFishTasty << endl;
 
     return 0;
 }
