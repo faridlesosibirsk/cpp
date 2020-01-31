@@ -1,11 +1,10 @@
 #include <iostream>
-using namespace std;
 
 int main() {
-    string firstName = "John";
-    string lastName = "Doe";
-    string fullName = firstName + lastName;
-    cout << fullName << endl;
+    std::string firstName = "John";
+    std::string lastName = "Doe";
+    std::string fullName = firstName + lastName;
+    std::cout << fullName << "\n";
 
     return 0;
 }
